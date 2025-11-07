@@ -1,0 +1,20 @@
+# TownyReligions config.yml
+
+allowed-religions:
+  - Orthodox
+  - Catholic
+  - Protestant
+  - Muslim
+  - Jewish
+  - Pagan
+  - Atheist
+
+messages:
+  prefix: "&7[&dReligion&7] "
+  set-success: "&aSet &e%target% &ato religion &e%religion%&a."
+  invalid-religion: "&cThat religion doesn't exist. Use /religion list."
+  current: "&aYour current religion: &e%religion%"
+  none: "&cYou have not set a religion yet."
+  list-header: "&aAvailable religions:"
+  list-commands: "&aReligion Commands"
+  no-permission: "&cYou don't have permission to do that."

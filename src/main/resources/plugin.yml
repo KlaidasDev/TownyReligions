@@ -1,0 +1,21 @@
+name: TownyReligions
+main: com.klaidas.townyreligions.TownyReligions
+version: 1.0.0
+api-version: '1.21'
+depend: [Towny]
+softdepend: [PlaceholderAPI]
+
+commands:
+  religion:
+    description: Religion commands
+    usage: /religion
+    permission: townyreligions.use
+
+permissions:
+  townyreligions.use:
+    description: Use /religion list and /religion get
+    default: true
+
+  townyreligions.admin:
+    description: Allows managing and reloading TownyReligions config.
+    default: op
